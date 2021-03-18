@@ -1,0 +1,201 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10564927170,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TiendaCerca.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Registrarse de forma exitosa en la tienda cerca",
+        "description": "",
+        "id": "registro-tienda-cerca;registrarse-de-forma-exitosa-en-la-tienda-cerca;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 230436978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TiendaCerca.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10407927180,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que quiero registrarme en la tienda cerca ingreso a la pagina",
+            "match": {
+              "location": "TiendaCerca.que_quiero_registrarme_en_la_tienda_cerca_ingreso_a_la_pagina()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 522480938,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "selecciono la ciudad \"Bogotá\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bogotá",
+                  "offset": 22
+                }
+              ],
+              "location": "TiendaCerca.selecciono_la_ciudad(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158370442,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el tipo de usuario \"Consumidor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Consumidor",
+                  "offset": 20
+                }
+              ],
+              "location": "TiendaCerca.el_tipo_de_usuario(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906133936,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "diligencio numero telefonico \"3017211000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3017211000",
+                  "offset": 30
+                }
+              ],
+              "location": "TiendaCerca.diligencio_numero_telefonico(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500232981,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acepto terminos y condiciones",
+            "match": {
+              "location": "TiendaCerca.acepto_terminos_y_condiciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586016465,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "diligencio campos \"pedro pablo\" \"zapata garcia\" \"pedrozapata01@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pedro pablo",
+                  "offset": 19
+                },
+                {
+                  "val": "zapata garcia",
+                  "offset": 33
+                },
+                {
+                  "val": "pedrozapata01@gmail.com",
+                  "offset": 49
+                }
+              ],
+              "location": "TiendaCerca.diligencio_campos(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2285848322,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "seleciono la direccion \"Cra. 13 #96-67\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cra. 13 #96-67",
+                  "offset": 24
+                }
+              ],
+              "location": "TiendaCerca.seleciono_la_direccion(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782188921,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Visualizo el mensaje de registro exitoso",
+            "match": {
+              "location": "TiendaCerca.visualizo_el_mensaje_de_registro_exitoso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Registro tienda cerca",
+    "description": "",
+    "id": "registro-tienda-cerca",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]

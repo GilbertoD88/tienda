@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-18T05:24:20" hostname="MacBook-Pro-de-Avista.local" time="6.996">
+  <properties/>
+  <testcase name="Given que quiero registrarme en la tienda cerca ingreso a la pagina" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="When selecciono la ciudad &quot;Bogotá&quot;" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="And el tipo de usuario &quot;Consumidor&quot;" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="And diligencio numero telefonico &quot;3017211000&quot;" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="And acepto terminos y condiciones" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="And diligencio campos &quot;pedro pablo&quot; &quot;zapata garcia&quot; &quot;pedrozapata01@gmail.com&quot;" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="And seleciono la direccion &quot;Cra. 13 #96-67&quot;" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="Then Visualizo el mensaje de registro exitoso" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="0.0"/>
+  <testcase name="classMethod" classname="| Bogotá | Consumidor | 3017211000 | pedro pablo | zapata garcia | pedrozapata01@gmail.com | Cra. 13 #96-67 |" time="28.108"/>
+  <system-out><![CDATA[2021-Mar-18 00:24:09 [Test] INFO  : --------------------------------------------------------------------------------------------
+Feature: Registro tienda cerca 
+Escenario: Registrarse de forma exitosa en la tienda cerca 
+Fecha: 2021-03-18 00:24:09 
+
+2021-Mar-18 00:24:10 [Test] INFO  : ----------Operation: Abrir pagina 'Tienda' ----------
+2021-Mar-18 00:24:10 [Test] INFO  : SO= 'Mac OS X'
+2021-Mar-18 00:24:20 [Test] INFO  : Driver selected: 'Chrome'. The browser opened the following url: 'https://co-tc-shopper-web-stage.serempre.dev/'.
+2021-Mar-18 00:24:20 [Test] INFO  : ----------Operation successfully completed----------
+
+]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 4037
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 18, 2021 12:24:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,0 +1,47 @@
+--------------------------------------------------------------------------------------------
+Feature: Registro tienda cerca 
+Escenario: Registrarse de forma exitosa en la tienda cerca 
+Fecha: 2021-03-18 00:18:56 
+
+----------Operation: Abrir pagina 'Tienda' ----------
+SO= 'Mac OS X'
+Driver selected: 'Chrome'. The browser opened the following url: 'https://co-tc-shopper-web-stage.serempre.dev/'.
+----------Operation successfully completed----------
+
+----------Operation: Seleccion de ciudad ----------
+----------Operation: Seleccion de usuario tipo: Consumidor ----------
+----------Operation: Envio de numero celular 3017216699 ----------
+----------Operation: Aceptando terminos y condiciones ----------
+----------Operation: Diligenciamiento de datos basicos nombrepedro pablo apellido zapata garcia correo electronico pedrozapata01@gmail.com ----------
+----------Operation: Envio de direccion: Cra. 13 #96-67 ----------
+----------Operation: Obtencion de texto final ----------
+----------Operation successfully completed----------
+
+
+-------- Test finalizado --------
+Driver closed
+--------------------------------------------------------------------------------------------
+Feature: Registro tienda cerca 
+Escenario: Registrarse de forma exitosa en la tienda cerca 
+Fecha: 2021-03-18 00:24:09 
+
+----------Operation: Abrir pagina 'Tienda' ----------
+SO= 'Mac OS X'
+Driver selected: 'Chrome'. The browser opened the following url: 'https://co-tc-shopper-web-stage.serempre.dev/'.
+----------Operation successfully completed----------
+
+----------Operation: Seleccion de ciudad ----------
+----------Operation: Seleccion de usuario tipo: Consumidor ----------
+----------Operation: Envio de numero celular 3017211000 ----------
+----------Operation: Aceptando terminos y condiciones ----------
+----------Operation: Diligenciamiento de datos basicos ----------
+Nombre: pedro pablo
+Apellidos: zapata garcia
+Correo electronico: pedrozapata01@gmail.com
+----------Operation: Envio de direccion: Cra. 13 #96-67 ----------
+----------Operation: Obtencion de texto final ----------
+----------Operation successfully completed----------
+
+
+-------- Test finalizado --------
+Driver closed
